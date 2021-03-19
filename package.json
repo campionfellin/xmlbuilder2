@@ -1,21 +1,21 @@
 {
-  "name": "xmlbuilder2",
-  "version": "2.4.0",
+  "name": "@campionfellin/xmlbuilder2",
+  "version": "2.4.2",
   "keywords": [
     "xml",
     "xmlbuilder"
   ],
-  "homepage": "http://github.com/oozcitak/xmlbuilder2",
+  "homepage": "http://github.com/campionfellin/xmlbuilder2",
   "description": "An XML builder for node.js",
-  "author": "Ozgur Ozcitak <oozcitak@gmail.com>",
+  "author": "Campion Fellin <campionfellin@gmail.com>",
   "contributors": [],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/oozcitak/xmlbuilder2.git"
+    "url": "git://github.com/campionfellin/xmlbuilder2.git"
   },
   "bugs": {
-    "url": "http://github.com/oozcitak/xmlbuilder2/issues"
+    "url": "http://github.com/campionfellin/xmlbuilder2/issues"
   },
   "main": "./lib/index",
   "browser": "./lib/xmlbuilder2.min.js",
@@ -27,30 +27,36 @@
   ],
   "types": "./lib/index.d.ts",
   "dependencies": {
-    "@oozcitak/util": "8.3.8",
     "@oozcitak/dom": "1.15.8",
     "@oozcitak/infra": "1.0.8",
-    "js-yaml": "3.14.0",
-    "@types/node": "*"
+    "@oozcitak/util": "8.3.8",
+    "@types/node": "*",
+    "js-yaml": "3.14.0"
   },
   "devDependencies": {
     "@babel/preset-env": "*",
     "@babel/runtime-corejs3": "7.10.3",
     "@types/benchmark": "*",
+    "@types/chromedriver": "*",
     "@types/dedent": "*",
     "@types/jest": "*",
-    "@types/libxmljs": "*",
     "@types/js-yaml": "3.11.1",
+    "@types/libxmljs": "*",
+    "@types/selenium-webdriver": "*",
     "babel-loader": "*",
     "benchmark": "*",
     "chalk": "*",
+    "chromedriver": "*",
     "core-js": "3.6.5",
     "dedent": "*",
-    "glob": "*",
     "es6-proxy-polyfill": "*",
+    "geckodriver": "*",
+    "glob": "*",
     "harmony-reflect": "*",
+    "iedriver": "*",
     "jest": "*",
     "libxmljs": "*",
+    "selenium-webdriver": "*",
     "ts-jest": "*",
     "ts-loader": "*",
     "ts-node": "*",
@@ -58,13 +64,7 @@
     "webpack": "*",
     "webpack-cli": "*",
     "xmlbuilder": "*",
-    "xpath": "*",
-    "selenium-webdriver": "*",
-    "chromedriver": "*",
-    "geckodriver": "*",
-    "iedriver": "*",
-    "@types/selenium-webdriver": "*",
-    "@types/chromedriver": "*"
+    "xpath": "*"
   },
   "jest": {
     "transform": {
