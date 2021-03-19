@@ -50,6 +50,11 @@ export class MapWriter extends BaseWriter<MapWriterOptions, XMLSerializedAsMap |
     return this._convertObject(val)
   }
 
+  /** @inheritdoc */
+  _appendMarkup(markup: XMLSerializedAsMap | undefined): void {
+    throw new Error("Method not implemented.")
+  }
+
   /**
    * Recursively converts a JS object into an ES5 map.
    * 
